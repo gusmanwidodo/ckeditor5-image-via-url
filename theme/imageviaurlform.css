@@ -5,11 +5,11 @@
 
 @import "@ckeditor/ckeditor5-ui/theme/mixins/_rwd.css";
 
-@define-mixin ck-imageviaurl-phone {
+/* @define-mixin ck-imageviaurl-phone {
 	@media screen and (max-width: 600px) {
 		@mixin-content;
 	}
-}
+} */
 
 .ck.ck-imageviaurl-form {
 	display: flex;
@@ -30,7 +30,7 @@
 		margin-left: 6px;
 	}
 
-	@mixin ck-imageviaurl-phone {
+	/* @mixin ck-imageviaurl-phone {
 		flex-wrap: wrap;
 
 		& .ck-labeled-input {
@@ -40,5 +40,5 @@
 		& .ck-button {
 			flex-basis: 50%;
 		}
-	}
+	} */
 }
